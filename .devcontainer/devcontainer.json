@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/universal2",
   "hostRequirements": {
     "cpus": 4
   },
@@ -14,7 +14,12 @@
       "openFiles": [
         "src/App.js"
       ]
-    }
+	},
+	"vscode": {
+		"extensions": [
+			"lonefy.vscode-JS-CSS-HTML-formatter"
+		]
+	}
   },
   "portsAttributes": {
     "3000": {
